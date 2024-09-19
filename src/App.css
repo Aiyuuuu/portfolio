@@ -5,6 +5,10 @@
   font-family: Tahoma, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .menu-container {
   width: 15em;
   z-index: 2;

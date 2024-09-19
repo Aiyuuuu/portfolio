@@ -26,10 +26,10 @@ function Header() {
                 <a href="#intro">Home</a>
               </li>
               <li>
-                <a href="#projects">About</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#about">Projects</a>
+                <a href="#about">About</a>
               </li>
               <li>
                 <a href="#skills">Skills</a>
