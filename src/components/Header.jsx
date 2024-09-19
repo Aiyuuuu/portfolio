@@ -23,19 +23,19 @@ function Header() {
             </div>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="#intro">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#projects">About</a>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <a href="#about">Projects</a>
               </li>
               <li>
-                <a href="#">Skills</a>
+                <a href="#skills">Skills</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>

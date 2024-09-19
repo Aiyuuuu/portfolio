@@ -20,7 +20,7 @@ const cardsData = [
   // Add more cards if needed
 ];
 
-function Projects() {
+function Projects({id}) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextCard = () => {
@@ -34,7 +34,7 @@ function Projects() {
   };
 
   return (
-    <div className="projects">
+    <div className="projects" id={id}>
         <h1>PROJECTS</h1>
       <div className="slider">
         <button className="prev" onClick={goToPreviousCard}>

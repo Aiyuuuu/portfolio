@@ -9,10 +9,10 @@ import { FaGithub } from "react-icons/fa";
 import { IoExtensionPuzzle } from "react-icons/io5";
 import { LuPresentation } from "react-icons/lu";
 
-function Skills(params) {
+function Skills({id}) {
   return (
     <>
-      <div className="Skills">
+      <div className="Skills" id={id}>
         <h1>Skills</h1>
         <div className="skills-section">
           <h2>Languages</h2>

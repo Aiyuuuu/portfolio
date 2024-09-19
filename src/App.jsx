@@ -10,11 +10,11 @@ import "./App.css";
 function App() {
   return <>
     <Header></Header>
-    <Intro></Intro>
-    <Projects></Projects>
-    <About></About>
-    <Skills></Skills>
-    <Contact></Contact>
+    <Intro id={"intro"}></Intro>
+    <Projects id={"projects"}></Projects>
+    <About  id={"about"}></About>
+    <Skills  id={"skills"}></Skills>
+    <Contact  id={"contact"}></Contact>
   </>;
 }
 

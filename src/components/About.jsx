@@ -1,7 +1,7 @@
-function About(params) {
+function About({id}) {
   return (
     <>
-      <div className="about">
+      <div className="about" id={id}>
         <h1>ABOUT</h1>
         <div className="container">
           <div className="row">

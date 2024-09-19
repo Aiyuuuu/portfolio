@@ -3,10 +3,10 @@ import { FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 
-function Intro(params) {
+function Intro({id}) {
   return (
     <>
-      <div className="intro-1">
+      <div className="intro-1" id={id}>
         <div className="intro">
           <div className="container">
             <div className="first-text">

@@ -1,6 +1,6 @@
-function Contact(params) {
+function Contact({id}) {
     return <>
-        <div className="contact">
+        <div className="contact" id={id}>
             <h1>Contact</h1>
             <div className="contact-area">
                 <div className="input-area">
